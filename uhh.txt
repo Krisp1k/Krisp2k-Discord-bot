@@ -1,8 +1,0 @@
-https://discord.com/oauth2/authorize?client_id=744492489473261621&permissions=8&scope=bot
-
-id = 744492489473261621
-permissions = 8
-
-to do:
-google search
-!nsfw 
