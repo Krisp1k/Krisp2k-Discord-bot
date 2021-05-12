@@ -1,0 +1,21 @@
+{
+  "name": "krisp2k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krisp1k",
+  "license": "ISC",
+  "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
+    "@k3rn31p4nic/google-translate-api": "^1.1.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "google-translate-api": "^2.3.0",
+    "imageapi.js": "^1.6.1",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  }
+}
