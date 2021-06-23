@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const keepAlive = require("./server")
 
 const gifs = require("./COM-gifs");
 const replies = require("./COM-replies");
@@ -13,8 +14,6 @@ const help = require("./COM-help");
 //const nsfw = require("./COM-nsfw")
 
 require("dotenv").config();
-
-client.login(process.env.BOTTOKEN);
 
 client.on("ready", async () => { 
     
@@ -45,6 +44,9 @@ client.on("ready", async () => {
 
     //nsfw(client);
 })
+
+keepAlive()
+client.login(process.env.BOTTOKEN);
 
 
 
